@@ -1,5 +1,4 @@
-/*Name-Vinay k
-date-17/10/2024
+/*Name-Vidhya
 description-WAP the address book to save the contacts
 */
 #include <stdio.h>
@@ -307,12 +306,7 @@ void searchContact(AddressBook *addressBook)
     break;
     }
     }
-   //step1 print the menu based on what searching
-   //step2 choose menu
-
-   //1->name
-   //read the extered name is present int the database or not
-   //search the detail
+   
 
 
 void editContact(AddressBook *addressBook)
@@ -474,5 +468,6 @@ void listContacts(AddressBook *addressBook)
        {
         printf("Name:%s  Phone:%s  Email:%s\n", addressBook->contacts[i].name,addressBook->contacts[i].phone,addressBook->contacts[i].email);
        }
+
 
 }
